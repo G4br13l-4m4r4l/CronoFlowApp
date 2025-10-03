@@ -34,9 +34,14 @@
             homeBtn = new FontAwesome.Sharp.IconButton();
             iconeApp = new Panel();
             pictureBox1 = new PictureBox();
+            panelTitleBar = new Panel();
+            titleChildForm = new Label();
+            iconCurrentChild = new FontAwesome.Sharp.IconPictureBox();
             panelSideMenu.SuspendLayout();
             iconeApp.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panelTitleBar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)iconCurrentChild).BeginInit();
             SuspendLayout();
             // 
             // panelSideMenu
@@ -142,11 +147,46 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
+            // panelTitleBar
+            // 
+            panelTitleBar.BackColor = SystemColors.WindowFrame;
+            panelTitleBar.Controls.Add(titleChildForm);
+            panelTitleBar.Controls.Add(iconCurrentChild);
+            panelTitleBar.Dock = DockStyle.Top;
+            panelTitleBar.Location = new Point(225, 0);
+            panelTitleBar.Name = "panelTitleBar";
+            panelTitleBar.Size = new Size(736, 75);
+            panelTitleBar.TabIndex = 1;
+            // 
+            // titleChildForm
+            // 
+            titleChildForm.AutoSize = true;
+            titleChildForm.ForeColor = Color.PaleGreen;
+            titleChildForm.Location = new Point(57, 24);
+            titleChildForm.Name = "titleChildForm";
+            titleChildForm.Size = new Size(43, 17);
+            titleChildForm.TabIndex = 1;
+            titleChildForm.Text = "Home";
+            // 
+            // iconCurrentChild
+            // 
+            iconCurrentChild.BackColor = Color.Transparent;
+            iconCurrentChild.ForeColor = Color.PaleGreen;
+            iconCurrentChild.IconChar = FontAwesome.Sharp.IconChar.House;
+            iconCurrentChild.IconColor = Color.PaleGreen;
+            iconCurrentChild.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconCurrentChild.Location = new Point(19, 24);
+            iconCurrentChild.Name = "iconCurrentChild";
+            iconCurrentChild.Size = new Size(32, 32);
+            iconCurrentChild.TabIndex = 0;
+            iconCurrentChild.TabStop = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(961, 598);
+            Controls.Add(panelTitleBar);
             Controls.Add(panelSideMenu);
             Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Name = "Form1";
@@ -156,6 +196,9 @@
             iconeApp.ResumeLayout(false);
             iconeApp.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panelTitleBar.ResumeLayout(false);
+            panelTitleBar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)iconCurrentChild).EndInit();
             ResumeLayout(false);
         }
 
@@ -167,5 +210,8 @@
         private FontAwesome.Sharp.IconButton ProgressBtn;
         private FontAwesome.Sharp.IconButton ConfigBtn;
         private PictureBox pictureBox1;
+        private Panel panelTitleBar;
+        private FontAwesome.Sharp.IconPictureBox iconCurrentChild;
+        private Label titleChildForm;
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CronoFlow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8dfa6df9f2c533bf9541190eda0dd8e385476c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("CronoFlow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CronoFlow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

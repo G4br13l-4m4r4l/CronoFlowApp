@@ -32,6 +32,7 @@ namespace CronoFlow
                 currentBtn = (IconButton)SendBtn;
                 currentBtn.BackColor = color;
                 currentBtn.ForeColor = Color.FromArgb(0, 255, 127);
+                currentBtn.IconColor = Color.FromArgb(0, 255, 127);
                 currentBtn.TextAlign = ContentAlignment.MiddleCenter;
                 currentBtn.TextImageRelation = TextImageRelation.TextBeforeImage;
                 currentBtn.ImageAlign = ContentAlignment.MiddleRight;
@@ -41,6 +42,10 @@ namespace CronoFlow
                 leftBorderBtn.Location = new Point(0, currentBtn.Location.Y);
                 leftBorderBtn.Visible = true;
                 leftBorderBtn.BringToFront();
+
+                //Titulo
+                iconCurrentChild.IconChar = currentBtn.IconChar;
+                titleChildForm.Text = currentBtn.Text;
             }
         }
 

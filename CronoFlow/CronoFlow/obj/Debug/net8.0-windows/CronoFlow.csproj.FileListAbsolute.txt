@@ -17,3 +17,5 @@ C:\Users\Gabriel\Desktop\WorkCode\ProjectsApart\portfolio\pomoApp\CronoFlowApp\C
 C:\Users\Gabriel\Desktop\WorkCode\ProjectsApart\portfolio\pomoApp\CronoFlowApp\CronoFlow\CronoFlow\obj\Debug\net8.0-windows\CronoFlow.csproj.AssemblyReference.cache
 C:\Users\Gabriel\Desktop\WorkCode\ProjectsApart\portfolio\pomoApp\CronoFlowApp\CronoFlow\CronoFlow\bin\Debug\net8.0-windows\FontAwesome.Sharp.dll
 C:\Users\Gabriel\Desktop\WorkCode\ProjectsApart\portfolio\pomoApp\CronoFlowApp\CronoFlow\CronoFlow\obj\Debug\net8.0-windows\CronoFlow.csproj.Up2Date
+C:\Users\Gabriel\Desktop\WorkCode\ProjectsApart\portfolio\pomoApp\CronoFlowApp\CronoFlow\CronoFlow\obj\Debug\net8.0-windows\CronoFlow.Properties.Resources.resources
+C:\Users\Gabriel\Desktop\WorkCode\ProjectsApart\portfolio\pomoApp\CronoFlowApp\CronoFlow\CronoFlow\obj\Debug\net8.0-windows\CronoFlow.sourcelink.json
