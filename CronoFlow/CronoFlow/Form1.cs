@@ -16,12 +16,9 @@ namespace CronoFlow
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            CarregarGifDeUrl();
+            pictureBox1.Image = Image.FromFile("C:/Users/Gabriel/Desktop/WorkCode/ProjectsApart/portfolio/pomoApp/CronoFlowApp/CronoFlow/CronoFlow/Images/logo_img.png");
         }
-        private async void CarregarGifDeUrl()
-        {
-            //pictureBox1.Image = Image.FromFile(".\\Images\\tmnt.gif");
-        }
+
         private void ActivateButton(object SendBtn, Color color)
         {
             if (SendBtn != null)
@@ -54,6 +51,7 @@ namespace CronoFlow
             if (currentBtn != null)
             {
                 currentBtn.BackColor = Color.FromArgb(128, 128, 128);
+                currentBtn.IconColor = Color.PaleGreen;
                 currentBtn.ForeColor = Color.PaleGreen;
                 currentBtn.TextAlign = ContentAlignment.MiddleLeft;
                 currentBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -74,6 +72,14 @@ namespace CronoFlow
         private void ConfigBtn_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, Color.FromArgb(64, 64, 64));
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            DisableBtn();
+            leftBorderBtn.Visible = false;
+            titleChildForm.Text = "Home";
+            iconCurrentChild.IconChar = FontAwesome.Sharp.IconChar.House;
         }
     }
 }

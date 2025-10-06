@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{8467E020-6413-42CF-A2AD-1DB61F0B3518}|CronoFlow\\CronoFlow.csproj|solutionrelative:cronoflow\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8467E020-6413-42CF-A2AD-1DB61F0B3518}|CronoFlow\\CronoFlow.csproj|C:\\Users\\Gabriel\\Desktop\\WorkCode\\ProjectsApart\\portfolio\\pomoApp\\CronoFlowApp\\CronoFlow\\cronoflow\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8467E020-6413-42CF-A2AD-1DB61F0B3518}|CronoFlow\\CronoFlow.csproj|c:\\users\\gabriel\\desktop\\workcode\\projectsapart\\portfolio\\pomoapp\\cronoflowapp\\cronoflow\\cronoflow\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8467E020-6413-42CF-A2AD-1DB61F0B3518}|CronoFlow\\CronoFlow.csproj|solutionrelative:cronoflow\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -40,9 +40,10 @@
               "RelativeDocumentMoniker": "CronoFlow\\Form1.Designer.cs",
               "ToolTip": "C:\\Users\\Gabriel\\Desktop\\WorkCode\\ProjectsApart\\portfolio\\pomoApp\\CronoFlowApp\\CronoFlow\\CronoFlow\\Form1.Designer.cs",
               "RelativeToolTip": "CronoFlow\\Form1.Designer.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAowK4AAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAAALAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T19:15:20.751Z"
+              "WhenOpened": "2025-10-02T19:15:20.751Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -52,7 +53,7 @@
               "RelativeDocumentMoniker": "CronoFlow\\Form1.cs",
               "ToolTip": "C:\\Users\\Gabriel\\Desktop\\WorkCode\\ProjectsApart\\portfolio\\pomoApp\\CronoFlowApp\\CronoFlow\\CronoFlow\\Form1.cs",
               "RelativeToolTip": "CronoFlow\\Form1.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCIAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwDUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T16:59:39.155Z",
               "EditorCaption": ""
@@ -66,7 +67,8 @@
               "ToolTip": "C:\\Users\\Gabriel\\Desktop\\WorkCode\\ProjectsApart\\portfolio\\pomoApp\\CronoFlowApp\\CronoFlow\\CronoFlow\\Form1.cs [Projeto]",
               "RelativeToolTip": "CronoFlow\\Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T16:58:28.811Z"
+              "WhenOpened": "2025-09-30T16:58:28.811Z",
+              "EditorCaption": " [Projeto]"
             }
           ]
         }

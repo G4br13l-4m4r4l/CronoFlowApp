@@ -140,12 +140,14 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(0, 3);
+            pictureBox1.Cursor = Cursors.Hand;
+            pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(222, 97);
+            pictureBox1.Size = new Size(230, 100);
             pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // panelTitleBar
             // 
