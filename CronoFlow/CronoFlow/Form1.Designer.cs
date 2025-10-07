@@ -159,6 +159,7 @@
             panelTitleBar.Name = "panelTitleBar";
             panelTitleBar.Size = new Size(736, 75);
             panelTitleBar.TabIndex = 1;
+            panelTitleBar.MouseDown += panelTitleBar_MouseDown;
             // 
             // titleChildForm
             // 

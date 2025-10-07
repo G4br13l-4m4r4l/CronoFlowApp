@@ -1,4 +1,5 @@
 using FontAwesome.Sharp;
+using System.Runtime.InteropServices;
 using System.Windows.Forms;
 namespace CronoFlow
 {
@@ -12,6 +13,10 @@ namespace CronoFlow
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(7, 60);
             panelSideMenu.Controls.Add(leftBorderBtn);
+            this.Text = string.Empty;
+            this.ControlBox = false;
+            this.DoubleBuffered = true;
+            this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -45,6 +50,12 @@ namespace CronoFlow
                 titleChildForm.Text = currentBtn.Text;
             }
         }
+
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
 
         private void DisableBtn()
         {
@@ -80,6 +91,12 @@ namespace CronoFlow
             leftBorderBtn.Visible = false;
             titleChildForm.Text = "Home";
             iconCurrentChild.IconChar = FontAwesome.Sharp.IconChar.House;
+        }
+
+        private void panelTitleBar_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
     }
 }
